@@ -1,0 +1,76 @@
+h1 {
+	text-align: center;
+}
+/* главный инпут и кнопка */
+#newDeals {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+
+input {
+	width: auto;
+	height: 50px;
+	font-size: 20px;
+	margin-right: 20px;
+	padding: 5px;
+}
+
+#add {
+	width: auto;
+	height: 30px;
+	font-size: 15px;
+	padding: 5px;
+}
+/* все что относится к списку */
+
+#list {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+
+
+li {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.text {
+	margin-right: 20px;
+	font-size: 25px;
+}
+
+/* Кнопки */
+
+.butChange {
+	margin-right: 15px;
+	width: auto;
+	height: 30px;
+	font-size: 15px;
+	padding: 5px;
+}
+.butSave {
+	margin-right: 15px;
+	width: auto;
+	height: 30px;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.del {
+	width: auto;
+	height: 30px;
+	font-size: 15px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+/* адаптивная верстка */
+
+@media  (max-width: 900px) {
+	
+}
